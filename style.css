@@ -51,21 +51,41 @@ a:hover{
     margin: 0 0 5px 15px;
     padding: 0 0 2px 0;
     text-transform: uppercase;
-    /* background-color: aqua; */
+    background-color: rgb(239, 249, 249);
     display: inline-block;
     border-bottom: 3px solid #810eab;
+    border-radius: 5%;
+
 }
 
-.order-table table {
-    border: 1px solid black;
+
+.first-name {
+    background-color: rgba(90, 196, 234, 0.448);
 }
 
-.order-table th {
-    border: 1px solid black;
+.last-name {
+    background-color: rgba(90, 196, 234, 0.218);
 }
 
-.order-table td {
-    border: 1px solid black;
-    padding: 10px;
+.item {
+    background-color: rgba(90, 196, 234, 0.448);
 }
 
+.price {
+    background-color: rgba(90, 196, 234, 0.218);
+
+}
+
+.total, .total-price {
+    background-color: rgb(56, 181, 226);
+    font-weight: 600;
+}
+
+td, th {
+    padding: 20px;
+}
+
+table {
+    background-color: rgba(157, 160, 233, 0.099);
+    box-shadow: 3px 3px 20px ;
+}
