@@ -16,6 +16,7 @@ header span {
     font-style: italic;
     /* text-decoration: underline; */
     color:rgb(5, 5, 109);
+    margin: 0 0 0 30px;
 }
 
 nav {
@@ -48,7 +49,7 @@ a:hover{
 }
 
 .order-table h2 {
-    margin: 0 0 5px 15px;
+    margin: 0 0 5px 30px;
     padding: 0 0 2px 0;
     text-transform: uppercase;
     background-color: rgb(239, 249, 249);
@@ -88,4 +89,5 @@ td, th {
 table {
     background-color: rgba(157, 160, 233, 0.099);
     box-shadow: 3px 3px 20px ;
+    margin: 0 0 0 30px;
 }
