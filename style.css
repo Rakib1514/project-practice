@@ -21,9 +21,9 @@ header span {
 nav {
     display: flex;
     justify-content: right;
-    margin: 0px 20px 10px 0px;
-    padding:0px 0px 20px 0px;
-
+    margin: 0px 20px 30px 20px;
+    padding:0px 0px 0px 0px;
+    border-bottom: 1px dashed #022e7a;
 }
 
 nav a {
@@ -47,6 +47,13 @@ a:hover{
     border-radius: 50%;
 }
 
-{
-    
+.order-table h2 {
+    margin: 0 0 5px 15px;
+    padding: 0 0 2px 0;
+    text-transform: uppercase;
+    /* background-color: aqua; */
+    display: inline-block;
+    border-bottom: 3px solid #810eab;
 }
+
+
