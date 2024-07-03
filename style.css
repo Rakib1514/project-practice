@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+header h1 {
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #022e7a, #810eab);
+    padding: 30px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    
+}
+
+header span {
+    font-style: italic;
+    /* text-decoration: underline; */
+    color:rgb(5, 5, 109);
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+nav a {
+    margin: 0px 0px 30px 30px;
+    background-color: ;
+}
