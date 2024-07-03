@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    /* border: 1px solid#022e7a; */
 }
 
 header h1 {
@@ -20,10 +21,28 @@ header span {
 nav {
     display: flex;
     justify-content: right;
-    margin-right: 20px;
+    margin: 0px 20px 10px 0px;
+    padding:0px 0px 20px 0px;
+
 }
 
 nav a {
-    margin: 0px 0px 30px 30px;
-    background-color: ;
+    margin: 0px 0px 15px 15px;
+    /* background-color: red; */
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    /* background-size: 0%;
+    color: rgba(0, 0, 0, 7);
+    background-color: transparent;
+    background-image: linear-gradient(to right, #022e7a, #810eab); */
+    transition: all 0.5 ease;
+}
+
+a:hover{
+    background-size: 100%;
+    /* color: antiquewhite; */
+    border-bottom: 2px dotted #810eab;
+    border-left: 2px dotted #810eab;
+    border-radius: 50%;
 }
